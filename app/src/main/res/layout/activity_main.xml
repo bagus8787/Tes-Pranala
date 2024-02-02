@@ -60,14 +60,17 @@
             android:text="Input Angka"/>
 
         <EditText
+            android:id="@+id/edtInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin5"
+            android:inputType="number"
             android:paddingLeft="@dimen/margin15"
             android:paddingVertical="@dimen/margin20"
-            android:hint="Email address"/>
+            android:hint="Input angka"/>
 
         <Button
+            android:id="@+id/btnGenerate"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginHorizontal="@dimen/margin5"
@@ -75,6 +78,13 @@
             android:text="Generate Bilangan Prima"
             android:layout_marginTop="@dimen/margin20"
             android:background="@drawable/bg_rounded_btn_login"/>
+
+        <TextView
+            android:id="@+id/tvBilanganPrima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
